@@ -25,13 +25,4 @@ public class Location {
     public int getPoster() {
         return mPoster;
     }
-
-    @Override
-    public String toString() {
-        return "Location{" +
-                "mLocationTitle='" + mLocationTitle + '\'' +
-                ", mLocationDescription='" + mLocationDescription + '\'' +
-                ", mPoster=" + mPoster +
-                '}';
-    }
 }
