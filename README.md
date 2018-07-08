@@ -6,7 +6,7 @@
 # About
   Objective: the goal is to create a Tour Guide App which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city.
 
-Activity|Activity|Activity
+Fragment|Fragment|Fragment
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="" width="0" height="0">  |  <img src="" width="0" height="0">  |  <img src="" width="0" height="0">
 
@@ -23,6 +23,6 @@ Activity|Activity|Activity
 
 ## Reflections
 
-*
+* ListView is showing its limitations performance-wise. Am considering using RecyclerView.
 
 [Back to Top](#table-of-contents)

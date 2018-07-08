@@ -15,7 +15,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
         android:scaleType="centerCrop"
-        tools:src="@drawable/image_poster_min" />
+        tools:src="@drawable/image_spots_places_reichstag" />
 
     <TextView
         android:id="@+id/text_view_location_title"
@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/image_view_poster"
         android:textColor="@android:color/black"
-        tools:text="@string/text_view_location_title" />
+        android:textSize="18sp"
+        tools:text="Reichstag Building" />
 
     <TextView
         android:id="@+id/text_view_location_description"
@@ -34,5 +35,5 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:singleLine="true"
-        tools:text="@string/text_view_location_description" />
+        tools:text="@string/spots_places_reichstag_desc" />
 </RelativeLayout>

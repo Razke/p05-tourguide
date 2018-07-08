@@ -18,8 +18,11 @@ public class SpotsPlacesFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.test1), getString(R.string.test2), R.drawable.image_poster_min));
-        locations.add(new Location(getString(R.string.test1), getString(R.string.test2), R.drawable.second_image_poster_min));
+        locations.add(new Location("Reichstag Building", getString(R.string.spots_places_reichstag_desc), R.drawable.image_spots_places_reichstag));
+        locations.add(new Location("Berlin Cathedral", getString(R.string.spots_places_cathedral_desc), R.drawable.image_spots_places_cathedral));
+        locations.add(new Location("Fernsehturm Berlin", getString(R.string.spots_places_fernsehturm_desc), R.drawable.image_spots_places_fernsehturm));
+        locations.add(new Location("Brandenburg Gate", getString(R.string.spots_places_brandenburg_desc), R.drawable.image_spots_places_brandenburg));
+        locations.add(new Location("Gendarmenmarkt", getString(R.string.spots_places_gendarmenmarkt_desc), R.drawable.image_spots_places_gendarmenmarkt));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
