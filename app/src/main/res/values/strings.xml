@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">Know Berlin</string>
 
-
     <string name="text_view_location_description">Located in the heart of Berlin, on prestigious Potsdamer Platz, within walking distance to the Sony Center, The Ritz Carlton, Berlin provides an amazing location for discovery. Our luxury hotel in Berlin, Germany is close to renowned shopping galleries, the Brandenburg Gate, the Diplomatic and Government District and the heart of cultural Berlin.</string>
     <string name="text_view_location_title">The Ritz-Carlton</string>
-
 
     <string name="category_spots_places">Spots &amp; Places</string>
     <string name="category_food_drink">Food &amp; Drink</string>
