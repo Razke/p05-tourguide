@@ -25,3 +25,5 @@ bin/
 gen/
 .idea/vcs.xml
 app/libs/
+/.idea/
+.idea/markdown-exported-files.xml
