@@ -13,6 +13,8 @@ Fragment|Fragment|Fragment
 
 ## Resources used in this project
 
+* [Fix for "Please select Android SDK” error](https://stackoverflow.com/a/40356815/8651044)
+
 * [What should be in my .gitignore](https://stackoverflow.com/questions/16736856/what-should-be-in-my-gitignore-for-an-android-studio-project/17803964#17803964)
 
 * [InVision for drawing my prototype](https://www.invisionapp.com/)
