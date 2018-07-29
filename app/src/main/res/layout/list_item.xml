@@ -15,7 +15,8 @@
         android:layout_marginTop="@dimen/spacingMedium"
         android:adjustViewBounds="true"
         android:background="@drawable/view_border"
-        tools:src="@drawable/ic_spotsplaces" />
+        android:scaleType="centerCrop"
+        tools:src="@drawable/img_spots_places_botanic" />
 
     <TextView
         android:id="@+id/text_view_location_title"
