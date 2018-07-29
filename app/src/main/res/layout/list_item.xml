@@ -10,12 +10,12 @@
         android:id="@+id/image_view_poster"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:adjustViewBounds="true"
         android:layout_alignParentTop="true"
         android:layout_marginBottom="16dp"
         android:layout_marginTop="16dp"
-        android:scaleType="centerCrop"
-        tools:src="@drawable/image_spots_places_reichstag" />
+        android:adjustViewBounds="true"
+        android:background="@drawable/view_border"
+        tools:src="@drawable/ic_hotels" />
 
     <TextView
         android:id="@+id/text_view_location_title"
@@ -24,7 +24,7 @@
         android:layout_below="@id/image_view_poster"
         android:textColor="@android:color/black"
         android:textSize="18sp"
-        tools:text="Reichstag Building" />
+        tools:text="Africfood" />
 
     <TextView
         android:id="@+id/text_view_location_description"
@@ -35,5 +35,5 @@
         android:ellipsize="end"
         android:maxLines="1"
         android:singleLine="true"
-        tools:text="@string/spots_places_reichstag_desc" />
+        tools:text="We offer African food at the Cambridge Market " />
 </RelativeLayout>

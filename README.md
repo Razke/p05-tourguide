@@ -13,6 +13,8 @@ Fragment|Fragment|Fragment
 
 ## Resources used in this project
 
+* [How do I put a border around an Android textview?](https://stackoverflow.com/a/3496310/8651044)
+
 * [cleaning up the .git folder](https://github.com/18F/C2/issues/439)
 
 * [Fix for "Please select Android SDK” error](https://stackoverflow.com/a/40356815/8651044)

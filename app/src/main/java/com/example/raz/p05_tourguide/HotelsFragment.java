@@ -18,8 +18,11 @@ public class HotelsFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.test1), getString(R.string.test2), R.drawable.image_poster_min));
-        locations.add(new Location(getString(R.string.test1), getString(R.string.test2), R.drawable.second_image_poster_min));
+        locations.add(new Location("Ibis Cambridge Central Station", getString(R.string.hotels_ibis_descr), R.drawable.ic_hotels));
+        locations.add(new Location("Anstey Hall", getString(R.string.hotels_anstey_descr), R.drawable.ic_hotels));
+        locations.add(new Location("Holiday Inn Express Cambridge", getString(R.string.hotels_holidayinn_descr), R.drawable.ic_hotels));
+        locations.add(new Location("Quy Mill Hotel & Spa", getString(R.string.hotels_quymill_descr), R.drawable.ic_hotels));
+        locations.add(new Location("Travelodge", getString(R.string.hotels_travelodge_descr), R.drawable.ic_hotels));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

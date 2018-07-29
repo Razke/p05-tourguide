@@ -18,11 +18,11 @@ public class SpotsPlacesFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Reichstag Building", getString(R.string.spots_places_reichstag_desc), R.drawable.image_spots_places_reichstag));
-        locations.add(new Location("Berlin Cathedral", getString(R.string.spots_places_cathedral_desc), R.drawable.image_spots_places_cathedral));
-        locations.add(new Location("Fernsehturm Berlin", getString(R.string.spots_places_fernsehturm_desc), R.drawable.image_spots_places_fernsehturm));
-        locations.add(new Location("Brandenburg Gate", getString(R.string.spots_places_brandenburg_desc), R.drawable.image_spots_places_brandenburg));
-        locations.add(new Location("Gendarmenmarkt", getString(R.string.spots_places_gendarmenmarkt_desc), R.drawable.image_spots_places_gendarmenmarkt));
+        locations.add(new Location("The Centre for Computing History", getString(R.string.spots_places_computing_descr), R.drawable.ic_spotsplaces));
+        locations.add(new Location("University of Cambridge", getString(R.string.spots_places_university_descr), R.drawable.ic_spotsplaces));
+        locations.add(new Location("The River Cam", getString(R.string.spots_places_camriver_descr), R.drawable.ic_spotsplaces));
+        locations.add(new Location("Fitzwilliam Museum", getString(R.string.spots_places_fitzwilliam_descr), R.drawable.ic_spotsplaces));
+        locations.add(new Location("Cambridge University Botanic Garden", getString(R.string.spots_places_botanic_descr), R.drawable.ic_spotsplaces));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 
