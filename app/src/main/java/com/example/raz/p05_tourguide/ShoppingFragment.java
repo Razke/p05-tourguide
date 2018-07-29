@@ -18,11 +18,11 @@ public class ShoppingFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("The Grafton", getString(R.string.shopping_grafton_descr), R.drawable.ic_shopping));
-        locations.add(new Location("Grand Arcade", getString(R.string.shopping_arcade_descr), R.drawable.ic_shopping));
-        locations.add(new Location("Lion Yard Shopping Centre", getString(R.string.shopping_lionyard_descr), R.drawable.ic_shopping));
-        locations.add(new Location("Cambridge University Press Bookshop", getString(R.string.shopping_bookshop_descr), R.drawable.ic_shopping));
-        locations.add(new Location("Custom Ink Tattooing", getString(R.string.shopping_tattooing_descr), R.drawable.ic_shopping));
+        locations.add(new Location(getString(R.string.shopping_title_grafton), getString(R.string.shopping_grafton_descr), R.drawable.ic_shopping));
+        locations.add(new Location(getString(R.string.shopping_title_arcade), getString(R.string.shopping_arcade_descr), R.drawable.ic_shopping));
+        locations.add(new Location(getString(R.string.shopping_title_lionyard), getString(R.string.shopping_lionyard_descr), R.drawable.ic_shopping));
+        locations.add(new Location(getString(R.string.shopping_title_bookshop), getString(R.string.shopping_bookshop_descr), R.drawable.ic_shopping));
+        locations.add(new Location(getString(R.string.shopping_title_tattooing), getString(R.string.shopping_tattooing_descr), R.drawable.ic_shopping));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

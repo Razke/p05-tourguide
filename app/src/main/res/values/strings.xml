@@ -1,17 +1,40 @@
 <resources>
-    <string name="app_name">Know Cambridge</string>
+    <string name="app_name">Cambridge UK</string>
 
     <string name="category_spots_places">Spots &amp; Places</string>
     <string name="category_food_drink">Food &amp; Drink</string>
     <string name="category_hotels">Hotels</string>
     <string name="category_shopping">Shopping</string>
 
+    <string name="spots_places_title_computing">The Centre for Computing History</string>
+    <string name="spots_places_title_university">University of Cambridge</string>
+    <string name="spots_places_title_rivercam">The River Cam</string>
+    <string name="spots_places_title_fitzwilliam">Fitzwilliam Museum</string>
+    <string name="spots_places_title_botanic">Cambridge University Botanic Garden</string>
+
+    <string name="food_drink_title_signorelli">Signorelli\'s Deli Cambridge</string>
+    <string name="food_drink_title_ilpiccolomondo">Ristorante Il Piccolo Mondo</string>
+    <string name="food_drink_title_trinity">Trinity Restaurant</string>
+    <string name="food_drink_title_breadmeat"><![CDATA[Bread & Meat]]></string>
+    <string name="food_drink_title_africfood">Africfood</string>
+
+    <string name="hotels_title_ibis">Ibis Cambridge Central Station</string>
+    <string name="hotels_title_anstey">Anstey Hall</string>
+    <string name="hotels_title_holidayinn">Holiday Inn Express Cambridge</string>
+    <string name="hotels_title_quymill"><![CDATA[Quy Mill Hotel & Spa]]></string>
+    <string name="hotels_title_travelodge">Travelodge</string>
+
+    <string name="shopping_title_grafton">The Grafton</string>
+    <string name="shopping_title_arcade">Grand Arcade</string>
+    <string name="shopping_title_lionyard">Lion Yard Shopping Centre</string>
+    <string name="shopping_title_bookshop">Cambridge University Press Bookshop</string>
+    <string name="shopping_title_tattooing">Custom Ink Tattooing</string>
+
     <string name="spots_places_computing_descr">The Centre for Computing History is a hands-on interactive display of computers and game consoles that date back to the early sixties! From Pong to Pokémon, experience game play evolving. The display includes the huge computers of the sixties, the home computers of the 80’s and much more.</string>
     <string name="spots_places_university_descr">Founded in 1209, nearly a century after Oxford University was established, the university was formally incorporated in 1571 and was patterned after those of Oxford and Paris with a traditional course of study based on Latin grammar, rhetoric and logic, arithmetic, geometry, music and astronomy..</string>
     <string name="spots_places_camriver_descr">Punting along the River Cam is a must when visiting Cambridge. Beautiful scenes along the river that you only get to see when punting. I recommend a touring punt instead of a self-punt so you can enjoy the interesting facts about Cambridge surroundings. And keep an eye out for the Pimms Punt!</string>
     <string name="spots_places_fitzwilliam_descr">Museum houses vast collections of antiquities from ancient Egypt, Greece and Rome, including exhibits of English and European pottery and glass, furniture, clocks, Chinese jades, and ceramics from Japan and Korea.</string>
     <string name="spots_places_botanic_descr">This heritage-listed Botanic Garden was originally conceived by Professor John Henslow, the mentor and teacher of Charles Darwin. The Garden\'s plant collections today number over 8000 species from all over the world, displayed within the best collection of trees in the region. The 40 acres of beautifully-landscaped gardens and glasshouses offer year-round interest and seasonal inspiration. The excellent Cafe and Shop are also open year-round. An oasis in the City, this great Garden makes a great day out.</string>
-
 
     <string name="food_drink_signorelli_descr">Our in-house bakery offers freshly made pizzas, bread and most importantly our famous Pasticcini. We also have a large selection of Italian cured meats and cheeses from small independent farms. Our additional wine corner offers consumers a chance to taste, drink and purchase our fine wines selection as well as our Italian craft beer.</string>
     <string name="food_drink_ilpiccolomondo_descr">Il Piccolo Mondo – or ‘The Small World’ – in Bottisham is a delightful 45 cover authentic Italian restaurant that maintains many of the original features of its historic building.</string>

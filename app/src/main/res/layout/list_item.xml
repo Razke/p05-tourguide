@@ -3,37 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp">
+    android:paddingLeft="@dimen/spacingMedium"
+    android:paddingRight="@dimen/spacingMedium">
 
     <ImageView
         android:id="@+id/image_view_poster"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/list_item_image_height"
         android:layout_alignParentTop="true"
-        android:layout_marginBottom="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="@dimen/spacingMedium"
+        android:layout_marginTop="@dimen/spacingMedium"
         android:adjustViewBounds="true"
         android:background="@drawable/view_border"
-        tools:src="@drawable/ic_hotels" />
+        tools:src="@drawable/ic_spotsplaces" />
 
     <TextView
         android:id="@+id/text_view_location_title"
+        style="@style/ListItemTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/image_view_poster"
-        android:textColor="@android:color/black"
-        android:textSize="18sp"
-        tools:text="Africfood" />
+        tools:text="@string/spots_places_title_computing" />
 
     <TextView
         android:id="@+id/text_view_location_description"
+        style="@style/ListItemDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/text_view_location_title"
-        android:layout_marginBottom="16dp"
-        android:ellipsize="end"
-        android:maxLines="1"
-        android:singleLine="true"
-        tools:text="We offer African food at the Cambridge Market " />
+        android:layout_marginBottom="@dimen/spacingMedium"
+        tools:text="@string/spots_places_computing_descr" />
 </RelativeLayout>

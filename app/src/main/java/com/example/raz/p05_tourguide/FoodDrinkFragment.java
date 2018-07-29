@@ -18,11 +18,11 @@ public class FoodDrinkFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location("Signorelli's Deli Cambridge", getString(R.string.food_drink_signorelli_descr), R.drawable.ic_fooddrink));
-        locations.add(new Location("Ristorante Il Piccolo Mondo", getString(R.string.food_drink_ilpiccolomondo_descr), R.drawable.ic_fooddrink));
-        locations.add(new Location("Trinity Restaurant", getString(R.string.food_drink_trinity_descr), R.drawable.ic_fooddrink));
-        locations.add(new Location("Bread & Meat", getString(R.string.food_drink_breadmeat_descr), R.drawable.ic_fooddrink));
-        locations.add(new Location("Africfood", getString(R.string.food_drink_africfood_descr), R.drawable.ic_fooddrink));
+        locations.add(new Location(getString(R.string.food_drink_title_signorelli), getString(R.string.food_drink_signorelli_descr), R.drawable.ic_fooddrink));
+        locations.add(new Location(getString(R.string.food_drink_title_ilpiccolomondo), getString(R.string.food_drink_ilpiccolomondo_descr), R.drawable.ic_fooddrink));
+        locations.add(new Location(getString(R.string.food_drink_title_trinity), getString(R.string.food_drink_trinity_descr), R.drawable.ic_fooddrink));
+        locations.add(new Location(getString(R.string.food_drink_title_breadmeat), getString(R.string.food_drink_breadmeat_descr), R.drawable.ic_fooddrink));
+        locations.add(new Location(getString(R.string.food_drink_title_africfood), getString(R.string.food_drink_africfood_descr), R.drawable.ic_fooddrink));
 
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations);
 

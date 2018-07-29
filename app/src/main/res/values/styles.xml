@@ -20,7 +20,7 @@
     <!-- Text appearance style for an App bar -->
     <style name="TitleTextStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">@android:color/black</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">@dimen/textSizeLarge</item>
     </style>
 
     <!-- Style for a tab that displays a category name -->
@@ -33,5 +33,16 @@
     <!-- Text appearance style for a category tab -->
     <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
         <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="ListItemTitle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSizeMedium</item>
+    </style>
+
+    <style name="ListItemDescription">
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
     </style>
 </resources>

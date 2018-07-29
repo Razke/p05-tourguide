@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="list_item_height">88dp</dimen>
+    <!-- list_item sizes -->
+    <dimen name="list_item_image_height">200dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeMedium">18sp</dimen>
+
+    <!-- Typical spacing between two views -->
+    <dimen name="spacingMedium">16dp</dimen>
+
 </resources>
