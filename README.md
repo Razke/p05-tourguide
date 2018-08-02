@@ -23,7 +23,8 @@ Fragment|Fragment|Fragment
 
 * [InVision for drawing my prototype](https://www.invisionapp.com/)
 
-* [Mentor review]()
+* [Mentor review #1](https://review.udacity.com/#!/reviews/1369999/shared)
+* [Mentor review #2](https://review.udacity.com/#!/reviews/1370189/shared) - apparently vector images didn't count for the rubric guidelines, had to create a list using actual .jpg images
 
 * Android Studio Plugins: CodeGlance, Key promoter, Markdown Navigator, Material Theme UI, WIFI ADB ULTIMATE, .ignore, Presentation Assistant, Android Drawable Importer
 
