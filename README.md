@@ -10,6 +10,15 @@ Fragment|Fragment|Fragment
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="" width="0" height="0">  |  <img src="" width="0" height="0">  |  <img src="" width="0" height="0">
 
+This project is about combining various ideas and skills we’ve been practicing throughout the course. They include:
+* Planning your app design and navigation before coding
+* Selecting proper data structures to store lists of information
+* Building layouts to display those lists of data
+* Navigating between lists in Fragments using either a ViewPager plus TabLayout or Navigation Drawer*
+* Creating your own custom classes
+* Properly handling images or audio (if applicable)
+
+Navigation Drawers were not covered in this course. 
 
 ## Resources used in this project
 
