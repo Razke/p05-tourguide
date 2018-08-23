@@ -1,4 +1,6 @@
 #### Table of Contents
+<img align="right" width="100" height="100" src="https://raw.githubusercontent.com/Razke/p05-tourguide/master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png">
+
   1. [About](#about)
   2. [Resources used in this project](#resources-used-in-this-project)
   3. [Reflections](#reflections)
@@ -6,9 +8,7 @@
 # About
   Objective: the goal is to create a Tour Guide App which presents relevant information to a user who’s visiting your city. The app can list top attractions, restaurants, public places, or events for the city.
 
-Fragment|Fragment|Fragment
-:-------------------------:|:-------------------------:|:-------------------------:
-<img src="" width="0" height="0">  |  <img src="" width="0" height="0">  |  <img src="" width="0" height="0">
+<img src="https://i.imgur.com/rY176tN.jpg" width="250" height="500">
 
 This project is about combining various ideas and skills we’ve been practicing throughout the course. They include:
 * Planning your app design and navigation before coding
